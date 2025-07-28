@@ -8,7 +8,7 @@ load_dotenv()  # <- Load .env variables
 
 app = FastAPI()
 
-SLACK_WEBHOOK_URL = os.getenv("https://hooks.slack.com/services/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")
+SLACK_WEBHOOK_URL = os.getenv("https://hooks.slack.com/services/TXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 
 
