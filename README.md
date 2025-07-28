@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MCP Python Project
 
 ## Features
@@ -131,5 +132,7 @@ You should see the message appear in your Slack channel.
 * Create MCP-compliant prompts for automated workflows
 
 ```
+=======
+>>>>>>> 410f9820a3c82b4e881e63a9721e640f409072a8
 
 >>>>>>> 3d17cbafbdc3190d8bf1c35880751c5a4d622c7a
