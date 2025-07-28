@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# MCP Python Project
-
-## Features
-- Claude-compatible MCP server
-- PR template suggestion tool
-- Slack notifications via webhook
-
-## Setup
-
-1. Install dependencies:
-=======
 # Basic MCP Server (Python)
 
 This project is a simple starter implementation of an **MCP-compatible** server for use with tools like **Claude Code**. It includes:
@@ -42,19 +29,10 @@ cd mcp_project
 
 ### 2. Install dependencies
 
->>>>>>> 3d17cbafbdc3190d8bf1c35880751c5a4d622c7a
 ```bash
 pip install -r requirements.txt
 ```
 
-<<<<<<< HEAD
-2. Copy `.env.example` to `.env` and set your Slack webhook:
-```bash
-cp .env.example .env
-```
-
-3. Run the server:
-=======
 ### 3. Configure `.env`
 
 Create your `.env` file from the example:
@@ -75,21 +53,10 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your/real/webhook
 
 ### 4. Run the server
 
->>>>>>> 3d17cbafbdc3190d8bf1c35880751c5a4d622c7a
 ```bash
 uvicorn mcp_server:app --port 8080
 ```
 
-<<<<<<< HEAD
-4. Use Cloudflare Tunnel to expose it:
-```bash
-cloudflared tunnel --url http://localhost:8080
-```
-
-## Endpoints
-- `POST /tool/pr-template` — Suggests a PR template based on changed files
-- `POST /prompt/slack-notify` — Sends Slack message
-=======
 Your server will be live at:
 [http://localhost:8080](http://localhost:8080)
 
@@ -132,7 +99,5 @@ You should see the message appear in your Slack channel.
 * Create MCP-compliant prompts for automated workflows
 
 ```
-=======
->>>>>>> 410f9820a3c82b4e881e63a9721e640f409072a8
 
->>>>>>> 3d17cbafbdc3190d8bf1c35880751c5a4d622c7a
+
